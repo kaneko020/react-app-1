@@ -13,17 +13,16 @@ const Detail = () => {
     axios
       .get('http://localhost:3030/items/' + id)
       .then(res => {
+        console.log(res.data)
         setItem(res.data)
       })
   }
-
-  const color = item.label === 'フロント' ? '#ffaa02' : '#5892ff';
 
   return (
     <div className="w-[90%] mx-auto my-[40px]">
       <h1 className="text-[30px] font-semibold">{item.title}</h1>
 
-      <div className={`my-4 px-3 inline-block bg-[${color}] text-[12px] text-white rounded-[25px]`}>
+      <div className={`my-4 px-3 inline-block bg-${item.color} text-[12px] text-white rounded-[25px]`}>
         {item.label}
       </div>
 

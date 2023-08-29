@@ -4,7 +4,12 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        blue: "#5892ff",
+        orange: "#ffaa02",
+      }
+    },
     screens: {
       pc: "768px",
       lg: "1200px",
