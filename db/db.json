@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "HTML",
+      "label": "フロント",
+      "image": "/images/logo-html.png"
+    },
+    {
+      "id": 2,
+      "title": "CSS",
+      "label": "フロント",
+      "image": "/images/logo-css.png"
+    },
+    {
+      "id": 3,
+      "title": "JavaScript",
+      "label": "フロント",
+      "image": "/images/logo-js.png"
+    },
+    {
+      "id": 4,
+      "title": "React",
+      "label": "フロント",
+      "image": "/images/logo-react.png"
+    },
+    {
+      "id": 5,
+      "title": "Vue",
+      "label": "フロント",
+      "image": "/images/logo-vue.png"
+    },
+    {
+      "id": 6,
+      "title": "PHP",
+      "label": "バックエンド",
+      "image": "/images/logo-php.png"
+    }
+  ]
+}
