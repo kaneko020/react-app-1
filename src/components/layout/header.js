@@ -7,9 +7,10 @@ const Header = () => {
     >
       <a href="/" className="flex items-center mx-6 z-20 hover:text-[#555]">
         <FaBook className="text-[50px] mr-2" />
-        <h1 className="text-[35px] font-semibold">Comics Introduction</h1>
+        <h1 className="text-[35px] font-semibold">Introduction</h1>
       </a>
-      <div className="flex items-center mx-8 gap-4 text-[16px] font-medium">
+      <div className="flex items-center mx-8 gap-6 text-[18px] font-medium">
+        <a href="/">Home</a>
         <a href="/comics">Comics</a>
         <a href="/movies">Movies</a>
       </div>

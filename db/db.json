@@ -496,5 +496,17 @@
       "image": "/images/movies/梨泰院クラス.png",
       "color": "blue"
     }
+  ],
+  "movieLabels": [
+    {
+      "id": 1,
+      "name": "映画",
+      "color": "red"
+    },
+    {
+      "id": 2,
+      "name": "ドラマ",
+      "color": "blue"
+    }
   ]
 }

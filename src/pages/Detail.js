@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { MdArrowBackIosNew } from 'react-icons/md';
 
-const ComicDetail = () => {
+const Detail = () => {
   const [item, setItem] = useState([])
 
   useEffect(() => {
@@ -15,11 +15,10 @@ const ComicDetail = () => {
   }, [])
 
   const getItemDetail = () => {
-    const id = window.location.pathname.split('/detail/')[1]
+    const path = window.location.pathname.replace('/detail', '')
     axios
-      .get('http://localhost:3030/comics/' + id)
+      .get('http://localhost:3030' + path)
       .then(res => {
-        console.log(res.data)
         setItem(res.data)
       })
   }
@@ -27,10 +26,10 @@ const ComicDetail = () => {
   return (
     <div className="w-[70%] mx-auto">
       <div className="px-3 py-1 my-8 bg-[#ecebeb] inline-block rounded-[10px] drop-shadow hover:bg-[#f6f6f6] active:drop-shadow-none">
-        <a href="/comics" className="flex items-center text-[17px]">
+        <button onClick={() => window.history.back()}  className="flex items-center text-[17px]">
           <MdArrowBackIosNew className="text-[20px] mr-2" />
           <span className="pr-2">Back</span>
-        </a>
+        </button>
       </div>
 
       <div className="">
@@ -70,4 +69,4 @@ const ComicDetail = () => {
   );
 }
 
-export default ComicDetail;
+export default Detail;

@@ -12,7 +12,7 @@ const MovieList = () => {
 
   useEffect(() => {
     getItems();
-    // getLabels();
+    getLabels();
   }, []);
 
   // moviesの取得
