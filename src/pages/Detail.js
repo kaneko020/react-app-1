@@ -27,7 +27,7 @@ const Detail = () => {
   return (
     <div className="w-[70%] mx-auto">
       <div className="px-3 py-1 my-8 bg-[#ecebeb] inline-block rounded-[10px] drop-shadow hover:bg-[#f6f6f6] active:drop-shadow-none">
-        <a href="/" className="flex items-center text-[17px]">
+        <a href="/comics" className="flex items-center text-[17px]">
           <MdArrowBackIosNew className="text-[20px] mr-2" />
           <span className="pr-2">Back</span>
         </a>

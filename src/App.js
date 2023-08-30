@@ -14,11 +14,15 @@ function App() {
         <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/comic">
+          <Route path="/comics">
             <List />
           </Route>
-          <Route path="/detail">
+          <Route path="/comics/detail">
             <Detail />
+          </Route>
+          <Route path="/videos">
+          </Route>
+          <Route path="/videos/detail">
           </Route>
         </Switch>
       </BrowserRouter>

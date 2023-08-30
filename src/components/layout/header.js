@@ -10,9 +10,8 @@ const Header = () => {
         <h1 className="text-[35px] font-semibold">Comics Introduction</h1>
       </a>
       <div className="flex items-center mx-8 gap-4 text-[16px] font-medium">
-        {/* <p>TEST1</p>
-        <p>TEST2</p>
-        <p>TEST3</p> */}
+        <a href="/comics">Comics</a>
+        <a href="/videos">Videos</a>
       </div>
     </div>
   );
