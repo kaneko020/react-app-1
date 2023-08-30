@@ -5,8 +5,8 @@
       "title": "ONE PIECE",
       "label": "Jump Comics",
       "synopsis": "東の海（イーストブルー）の端に位置する、フーシャ村。\n村の少年、モンキー・Ｄ・ルフィは、悪魔の実を食べたことによって体がゴムのように伸びる、ゴム人間になってしまった！\n偉大なる海賊シャンクスと出会い、ルフィは自らも海賊になること夢見る。\nそんなルフィにシャンクスは海での再会を約束し、自分の麦わら帽子を預けて出航していった。\nそれから10年後。\n成長したルフィは、揺るがぬ夢を抱えたまま、１人大海原へ漕ぎ出す。「海賊王に、おれはなる!!!」そう高らかに宣言して。",
-      "image": "/images/ONEPIECE.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/ONEPIECE.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "red"
     },
     {
@@ -14,8 +14,8 @@
       "title": "NARUTO",
       "label": "Jump Comics",
       "synopsis": "忍び五大国の一国、火の国の中にある木ノ葉隠れの里。\n里に住むうずまきナルトは、忍者学校の試験に何度も落ちているおちこぼれ。\n赤ん坊のときに、里を襲った化け狐の尾獣九尾をその体内に封印されている人柱力であるため、里の人々からうとんじられ、孤独な生活を送るナルトだったが、夢は里の長である火影になること。\n忍者学校の卒業試験に合格し、忍となったナルトは、同じ班に配属されたうちはサスケ、春野サクラたちと共に困難な任務に挑んでいく。",
-      "image": "/images/NARUTO.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/NARUTO.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "red"
     },
     {
@@ -23,8 +23,8 @@
       "title": "名探偵コナン",
       "label": "Sunday Comics",
       "synopsis": "俺は高校生探偵、工藤新一。\n幼馴染で同級生の毛利蘭と遊園地へ遊びに行って、黒ずくめの男の怪しげな取引現場を目撃した。\n取引を見るのに夢中になっていた俺は、背後から近づいてくるもう一人の仲間に気づかなかった。\n俺はその男に毒薬を飲まされ、目が覚めたら……体が縮んでしまっていた。\n工藤新一が生きているとヤツらにばれたら、また命を狙われ、周りの人間にも危害が及ぶ。\n阿笠博士の助言で正体を隠すことにした俺は、蘭に名前を聞かれてとっさに……「江戸川コナン」と名乗り、やつらの情報をつかむために、父親が探偵をやっている蘭の家に転がりこんだ......。\nたった一つの真実見抜く見た目は子供、頭脳は大人、その名は、名探偵コナン！",
-      "image": "/images/名探偵コナン.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/名探偵コナン.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "green"
     },
     {
@@ -32,8 +32,8 @@
       "title": "HUNTER x HUNTER",
       "label": "Jump Comics",
       "synopsis": "大自然に囲まれた「くじら島」に住む、主人公の少年ゴン＝フリークス。\n物心ついた時から両親はおらず、父親は死んだと聞かされ、育ての親であるミトと暮らしています。\nそんなゴンは、8歳の時に森で獣に襲われ、ハンターのカイトに助けられます。\n実は、カイトはゴンの父親ジン=フリークスの知り合いで、カイトはゴンに父親のことを話しました。ジン=フリークスは偉大なハンターであること、ジンは今でも生きていることを知ることになるのです。\n父親に会いたい思いが募り、ハンターにも憧れを抱いたゴンは、自分もハンターになろうと決心します。\nこうして、難しいハンター試験を受けるために故郷の「くじら島」を旅立ち、ゴンの冒険物語が幕を開けます。",
-      "image": "/images/hunterxhunter.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/hunterxhunter.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "red"
     },
     {
@@ -41,8 +41,8 @@
       "title": "宇宙兄弟",
       "label": "Morning",
       "synopsis": "兄は、優秀だが自分の能力を信じられず、ネガティブ思考に陥りがちな青年・ムッタ。\nムッタは失業という挫折のさなか、幼い頃に弟と誓い合った夢を取り戻し、「宇宙飛行士になる」という夢をすでに叶えていた弟・ヒビトの後を追い始める。\n弟の背を追う形で、数々の困難を乗り越えて、宇宙飛行士になったムッタ。\nヒビトは日本人初のムーンウォーカーになるも、宇宙飛行士になってからはじめての大きな挫折を経験し兄をはじめとする周囲の人に支えられて、必死に乗り越える。\n「俺らは生きて、二人で月面に立とうぜ」\n兄は先に行く弟に導かれ、弟が立ち止まった時には兄が優しく背中を押し、二人は「夢の続き」に向かって走り続ける。",
-      "image": "/images/宇宙兄弟.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/宇宙兄弟.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "lightblue"
     },
     {
@@ -50,8 +50,8 @@
       "title": "ゴールデンカムイ",
       "label": "Jump Comics",
       "synopsis": "舞台は明治時代後期の北海道。\n日露戦争に従軍して「不死身の杉元」と謳われた兵士、杉元佐一が、戦友であった寅次の妻、梅子を救う大金を得るため、死刑囚たちが隠したという莫大な埋蔵金を追って、大自然に生きるアイヌ民族の少女、アシリパと協力して手掛かりを集めていく様子を描いたサバイバル漫画。",
-      "image": "/images/ゴールデンカムイ.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/ゴールデンカムイ.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "red"
     },
     {
@@ -59,8 +59,8 @@
       "title": "あひるの空",
       "label": "Magazine Comics",
       "synopsis": "バスケットボールでは決して有利ではない小柄な体格の車谷 空(くるまたに そら)。\n身長を理由にスタメンに選ばれることのなかった空は、高校バスケ部に期待を膨らませて九頭龍高校、通称クズ高に入学。\nところがバスケ部はほとんど機能停止状態。とてもバスケをできる環境ではなかった。\nしかし、空はバスケへの熱量で、クズ高バスケ部メンバーとぶつかり合いながらも、共に成長していく。次々に直面するあらゆる困難に、クズ高バスケ部メンバーはどのように立ち向かって行くのか…！？",
-      "image": "/images/あひるの空.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/あひるの空.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "blue"
     },
     {
@@ -68,8 +68,8 @@
       "title": "怪獣8号",
       "label": "Jump Comics",
       "synopsis": "怪獣が跋扈（ばっこ）する世界。\n民間清掃会社「モンスタースイーパー」に入社して生計を立てていた日比野カフカは、市川レノとの出会いをきっかけに、あきらめかけていた日本防衛隊に入隊するべく防衛隊試験を受ける決意を固めるが、その矢先、謎の生物に寄生されたことで怪獣8号へ変身する力を身につけてしまう。\n自分の変化に戸惑いながらも、かつて目指した理想と仲間を守るため、異形に変身して戦うカフカの活躍を描くSFアクション。",
-      "image": "/images/怪獣8号.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/怪獣8号.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "red"
     },
     {
@@ -77,8 +77,8 @@
       "title": "ブルーロック",
       "label": "Magazine Comics",
       "synopsis": "主人公の潔世一(いさぎよいち)は無名の高校生フォワード(FW)。\n彼は埼玉県高校サッカー選手権大会決勝戦にてゴールキーパーとの一騎打ちに持ち込むも、仲間にパスを出したせいで全国大会の出場を逃してしまいます。\n落ち込んでいた彼の元に日本フットボール連合から1通の手紙が届きます。\n強化指定選手に選ばれた彼は、300人の中から世界1のストライカーを生み出す「青い監獄プロジェクト」に招待されることに。\nその後、彼は自身の選手生命をかけた厳しい戦いへと足を踏み入れることになったのです。",
-      "image": "/images/ブルーロック.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/ブルーロック.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "blue"
     },
     {
@@ -86,8 +86,8 @@
       "title": "サマータイムレンダ",
       "label": "Jump Comics",
       "synopsis": "舞台は和歌山県にある小さな離島・日都ヶ島（ひとがしま）。\n家族同然に育ってきた幼なじみの少女・潮の訃報を聞き、18歳の慎平は帰島します。\nそこで聞いたのは、潮が事故死ではなく、誰かに殺されたという可能性と、「自分の“影”に出会うと死ぬ」という不吉な噂。\nそして翌日、近隣の一家が突如として全員消えたと聞いた慎平は……。",
-      "image": "/images/サマータイムレンダ.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/サマータイムレンダ.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "red"
     },
     {
@@ -95,8 +95,8 @@
       "title": "アオアシ",
       "label": "Magazine Comics",
       "synopsis": "愛媛に暮らす中学三年生・青井葦人（あおいアシト）。\n粗削りながら、強烈なサッカーの才能を秘めているアシトだったが、まっすぐすぎる性格が災いして、大きな挫折を経験することに。\nそんなアシトの前に、東京にある強豪Jクラブ「東京シティ・エスペリオン」のユースチーム監督・福田達也（ふくだたつや）が現れる。\nアシトの無限の可能性を見抜いた福田は、東京で開催される自チームのセレクションを受けるよう勧めて！？\n将来、日本のサッカーに革命を起こすことになる少年の運命は、ここから急速に回り始める！！",
-      "image": "/images/アオアシ.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/アオアシ.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "blue"
     },
     {
@@ -104,8 +104,8 @@
       "title": "葬送のフリーレン",
       "label": "Sunday Comics",
       "synopsis": "勇者ヒンメルたちと共に、10年に及ぶ冒険の末に魔王を打ち倒し、世界に平和をもたらした魔法使いフリーレン。\n千年以上生きるエルフである彼女は、ヒンメルたちと再会の約束をし、独り旅に出る。\nそれから50年後、フリーレンはヒンメルのもとを訪ねるが、50年前と変わらぬ彼女に対し、ヒンメルは老い、人生は残りわずかだった。\nその後、死を迎えたヒンメルを目の当たりにし、これまで“人を知る”ことをしてこなかった自分を痛感し、それを悔いるフリーレンは、“人を知るため”の旅に出る。\nその旅路には、さまざまな人との出会い、さまざまな出来事が待っていた―。",
-      "image": "/images/葬送のフリーレン.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/葬送のフリーレン.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "green"
     },
     {
@@ -113,8 +113,8 @@
       "title": "東京リベンジャーズ",
       "label": "Magazine Comics",
       "synopsis": "人生どん底のダメフリーター花垣武道（タケミチ）。\n中学時代に付き合っていた人生唯一の恋人・橘日向（ヒナタ）が、最凶最悪の悪党連合”東京卍會”に殺されたことを知る。\n事件を知った翌日、駅のホームにいたタケミチは何者かに背中を押され線路に転落し死を覚悟したが、目を開けると何故か12年前にタイムリープしていた。\n人生のピークだった12年前の中学時代にタイムリープし、恋人を救うため、逃げ続けた自分を変えるため、人生のリベンジを開始する！",
-      "image": "/images/東京リベンジャーズ.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/東京リベンジャーズ.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "blue"
     },
     {
@@ -122,8 +122,8 @@
       "title": "推しの子",
       "label": "Jump Comics",
       "synopsis": "主人公・ゴローは田舎の産婦人科医。\nゴローは人気アイドルグループ「B小町」のセンター・星野アイの大ファン。\nそんなある日ゴローが働く病院に、妊娠したアイが現れます。\nゴローはショックを受けるも、絶対的な「推し」であるアイをサポートすることを決め、出産に立ち会うことに。\nそしてアイの出産予定日を迎えるのですが、ゴローはフードを被った何者かに襲われ命を落としてしまいます。\n…が、目を開けると彼は美しい女性に抱きかかえられていました。なんとゴローは、星野アイの息子に転生していたのです。",
-      "image": "/images/推しの子.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/推しの子.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "red"
     },
     {
@@ -131,8 +131,8 @@
       "title": "憂国のモリアーティ",
       "label": "Jump Comics",
       "synopsis": "主人公は、原案ではシャーロック・ホームズの宿敵として登場するモリアーティ教授です。\nモリアーティ教授ことウィリアム・ジェームズ・モリアーティは、もともと孤児でした。\n貴族の気まぐれで弟・ルイスと共にモリアーティ家に引き取られたウィリアムは、貴族なら何をしても許されるという社会の腐敗を目の当たりにします。\n実は天才的な頭脳を持っていたウィリアムは、モリアーティ家の長男・アルバートとルイスとともに、モリアーティ家を乗っ取る計画を立て……。\n完全階級制度によって腐敗した大英帝国を闇から正すべく、ウィリアムたちは暗躍を始めるのでした。",
-      "image": "/images/憂国のモリアーティ.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/憂国のモリアーティ.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "red"
     },
     {
@@ -140,8 +140,8 @@
       "title": "BE BLUE",
       "label": "Sunday Comics",
       "synopsis": "天才と呼ばれたサッカー少年、一条龍を主人公に、将来のSAMURAI BLUE（日本代表）を目指す少年の物語。\n小学6年生の時に幼馴染の青梅優人が交通事故にあいそうになったところを助け、階段から転落してしまう。\n手足と腰椎の骨折という重傷を負い、日常生活も不安視されるなかで、困難な状況を乗り越えて、サッカー選手として復活する姿を、幼馴染で双子の青梅優人、優希。元日本代表監督のイビチャ・オシムを彷彿させるミルコ・コヴァッチ。個性的なキャラクター、仲間、ライバル達がわきを固める。\n1対1の躍動感、ゴール前の緊迫感、絶妙の連携プレーを成功させたときの高揚感、サッカーの醍醐味がここにある。",
-      "image": "/images/BEBLUE.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/BEBLUE.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "green"
     },
     {
@@ -149,8 +149,8 @@
       "title": "東京喰種",
       "label": "Jump Comics",
       "synopsis": "人を喰らう怪人「喰種（グール）」が跋扈する東京。\n日常に隠れて生きる、正体が謎に包まれた「喰種」の脅威に、人々は恐れを感じ始めていた。\n読書好きの平凡な大学生・カネキは、通い詰める喫茶店「あんていく」にて、自分と同じく高槻泉を愛読する少女・リゼと出会う。\n自分の運命を大きく変えることになるとは知らずに…。\n人間の命を奪い、喰い生き永らえる怪人の存在に疑問と葛藤を抱きつつ、あるべき世界のあり方を模索する青年の未来は――!?",
-      "image": "/images/東京喰種.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/東京喰種.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "red"
     },
     {
@@ -158,8 +158,8 @@
       "title": "ダイヤのA",
       "label": "Magazine Comics",
       "synopsis": "中学最後の大会、統合により廃校の決まっている赤城中の名を残すために出場するも、一回戦で自らの暴投により負けてしまった沢村栄純。\n仲間たちと地元高校でリベンジをと考えるなか、東京の野球名門校・青道高校からスカウトが訪れる。\n気乗りしないまま見学に訪れた青道高校で、天才捕手・御幸一也と出会う。\nそして沢村栄純は青道高校へ進学し、エースとなるべく奮闘する。",
-      "image": "/images/ダイヤのA.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/ダイヤのA.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "blue"
     },
     {
@@ -167,8 +167,8 @@
       "title": "僕のヒーローアカデミア",
       "label": "Jump Comics",
       "synopsis": "個性を持つヒーローがヴィランから人々を守る世界が舞台。\nヒーローになりたい無個性の少年デクこと緑谷出久(みどりやいずく)は、憧れのヒーロー・オールマイトから彼の個性「ワン・フォー・オール」の後継者に指名されます。\n雄英高校ヒーロー科に入学を果たしたデクが、苦難を乗り越えながら最高のヒーローになるまでを描く物語です。",
-      "image": "/images/僕のヒーローアカデミア.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/僕のヒーローアカデミア.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "red"
     },
     {
@@ -176,8 +176,8 @@
       "title": "五等分の花嫁",
       "label": "Magazine Comics",
       "synopsis": "主人公である上杉風太郎は、五つ子姉妹である一花、二乃、三玖、四葉、五月の家庭教師を務めることになる。\n風太郎の仕事は、五つ子姉妹を無事に高校卒業まで導くため、勉強を教えることでした。\nしかし、五つ子姉妹は全員が勉強嫌いであるため、成績も落第寸前だったのです。\n五つ子姉妹を全員卒業させるため、風太郎の家庭教師としての日々が始まります。",
-      "image": "/images/五等分の花嫁.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/五等分の花嫁.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "blue"
     },
     {
@@ -185,8 +185,8 @@
       "title": "SPYxFAMILY",
       "label": "Jump Comics",
       "synopsis": "主人公の〈黄昏(たそがれ)〉は西国の凄腕スパイです。\n彼は、平和を脅かす危険人物である東国国家統一総裁ドノバン・デズモンドの息子が通う名門校の懇親会に潜入せよ、という命令を受けます。\nこの任務を遂行するため、精神科医ロイド・フォージャーに扮し、家族を作ることに。\nそこでロイドは孤児院にいたアーニャを娘に、市役所で働くヨルを妻に迎えましたが、実は、 アーニャは超能力者、ヨルも裏の顔が殺し屋でした。\nしかし、他人の心を読めるアーニャ以外はそれぞれの裏の顔を知りません。\nこうして お互いに秘密を抱えながら、3人は「仮初めの家族」として生活を送ることになったのです。",
-      "image": "/images/SPYxFAMILY.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/SPYxFAMILY.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "red"
     },
     {
@@ -194,8 +194,8 @@
       "title": "GIANT KILLING",
       "label": "Morning",
       "synopsis": "近年不振が続くプロサッカーチーム・ETUは、かつてETUのスター選手であったが、プレミアリーグに移籍後に故障から引退、以後イングランドのアマチュアチームで監督を務めていた達海猛を監督として招聘する。\nキャプテン・村越茂幸やサポーター集団のリーダー・羽田政志など、ETUを捨てて移籍した人間である達海の監督就任に不満を持つ者もあり、チームを取り巻く状況は決して良いものではなかった。\nしかし、達海が見出した若手椿大介の大活躍や、チームの意識改革、対戦相手の弱点を突く的確な戦術指示などもあり、弱小だったETUは徐々に白星を重ね、タイトルを狙えるようになっていく。",
-      "image": "/images/GIANTKILLING.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/GIANTKILLING.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "lightblue"
     },
     {
@@ -203,8 +203,8 @@
       "title": "進撃の巨人",
       "label": "Jump Comics",
       "synopsis": "約１００年前、世界に突然として巨人が現れました。\n巨人から身を守るため、人類は巨大な壁をつくり、その内側で生活することになります。\n壁の内側に巨人が侵入してくることはなく、人類は約１００年間平和に暮らしていました。\nしかしある日突然、巨人により壁が破壊されます。\n平和な生活を奪われた人類は、巨人からこの世界を取り戻すために立ち上がります。",
-      "image": "/images/進撃の巨人.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/進撃の巨人.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "red"
     },
     {
@@ -212,8 +212,8 @@
       "title": "BLUE GIANT",
       "label": "Other Comics",
       "synopsis": "仙台市出身の少年・宮本大は、中学時代、友人の家でたまたまジャズを聴きます。\nそれからというもの、ジャズ、そしてサックス演奏の楽しさに目覚め、高校卒業後は上京まで決意。\nジャズミュージシャンとしての腕を磨き続けるため、日々練習を続けます。\nジャズへの情熱を武器に、ひたすら演奏を続ける大。\nその実力がしだいに周囲に認められ、土手から小さなジャズ喫茶へ、大きなステージへ、そして仙台のジャズフェスティバル参加とステップアップしていきます。\nしかしその道は、決して簡単なものではありませんでした。",
-      "image": "/images/BLUEGIANT.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/BLUEGIANT.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "orange"
     },
     {
@@ -221,8 +221,8 @@
       "title": "SAKAMOTO DAYS",
       "label": "Jump Comics",
       "synopsis": "",
-      "image": "/images/SAKAMOTODAYS.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/SAKAMOTODAYS.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "red"
     },
     {
@@ -230,8 +230,8 @@
       "title": "四月は君の嘘",
       "label": "Magazine Comics",
       "synopsis": "",
-      "image": "/images/四月は君の嘘.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/四月は君の嘘.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "blue"
     },
     {
@@ -239,8 +239,8 @@
       "title": "弱虫ペダル",
       "label": "Other Comics",
       "synopsis": "車で登校していた今泉は、激坂をママチャリで登坂する1人の少年を目撃します。\nその男が同級生の小野田坂道だと知った彼は、負ければアニ研に入ることを条件に自転車競技での勝負を申し込みました。\n相手はママチャリであるにも関わらず食い下がられたことに衝撃を受けた今泉は、坂道を自転車競技部に誘います。\n最初は迷っていた彼ですが、関西からの転校生である自転車乗りの鳴子章吉(なるこしょうきち)とも出会い、自転車競技部への入部を決意するのでした！",
-      "image": "/images/弱虫ペダル.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/弱虫ペダル.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "orange"
     },
     {
@@ -248,8 +248,8 @@
       "title": "MASHLE",
       "label": "Jump Comics",
       "synopsis": "",
-      "image": "/images/MASHLE.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/MASHLE.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "red"
     },
     {
@@ -257,8 +257,8 @@
       "title": "おおきく振りかぶって",
       "label": "Other Comics",
       "synopsis": "",
-      "image": "/images/おおきく振りかぶって.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/おおきく振りかぶって.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "orange"
     },
     {
@@ -266,8 +266,8 @@
       "title": "呪術廻戦",
       "label": "Jump Comics",
       "synopsis": "高校生・虎杖 悠仁(いたどり ゆうじ)が通っている学校に、突如「呪霊」が現れました。\n人間から流れ出た憎悪や後悔といった負の感情は「呪い」となり、特に学校や病院などの大勢の思い出に残る場所に吹き溜まりやすく、この呪いが呪霊という化け物となって人間を襲います。\n虎杖が通う学校には呪霊を防ぐために、強い呪力が宿る「呪物(じゅぶつ)」が魔除けとして置かれていましたが、封印が緩んで逆に呪いを呼び寄せていたのです。\n呪物を回収するために、呪術師の伏黒 恵(ふしぐろ めぐみ)も助けに駆けつけます。\nしかし虎杖は呪霊との戦いによって窮地に追い込まれ、力を得て呪霊を倒すために、呪物である「両面 宿儺(りょうめん すくな)の指」を飲み込んでしまい…！？",
-      "image": "/images/呪術廻戦.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/呪術廻戦.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "red"
     },
     {
@@ -275,8 +275,8 @@
       "title": "親愛なる君へ殺意を込めて",
       "label": "Magazine Comics",
       "synopsis": "",
-      "image": "/images/親愛なる君へ殺意を込めて.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/親愛なる君へ殺意を込めて.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "blue"
     },
     {
@@ -284,8 +284,8 @@
       "title": "文豪ストレイドッグス",
       "label": "Other Comics",
       "synopsis": "",
-      "image": "/images/文豪ストレイドッグス.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/文豪ストレイドッグス.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "orange"
     },
     {
@@ -293,8 +293,8 @@
       "title": "リィンカーネーションの花弁",
       "label": "Other Comics",
       "synopsis": "",
-      "image": "/images/リィンカーネーションの花弁.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/リィンカーネーションの花弁.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "orange"
     },
     {
@@ -302,8 +302,8 @@
       "title": "ブルーピリオド",
       "label": "Other Comics",
       "synopsis": "",
-      "image": "/images/ブルーピリオド.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/ブルーピリオド.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "orange"
     },
     {
@@ -311,8 +311,8 @@
       "title": "3月のライオン",
       "label": "Other Comics",
       "synopsis": "",
-      "image": "/images/3月のライオン.png",
-      "image2": "/images/logo-react.png",
+      "image": "/images/comics/3月のライオン.png",
+      "image2": "/images/comics/logo-react.png",
       "color": "orange"
     }
   ],
@@ -341,6 +341,160 @@
       "id": 5,
       "name": "Other Comics",
       "color": "orange"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "title": "シャッターアイランド",
+      "label": "映画",
+      "synopsis": "",
+      "image": "/images/videos/シャッターアイランド.png",
+      "color": "red"
+    },
+    {
+      "id": 2,
+      "title": "First Love 初恋",
+      "label": "ドラマ",
+      "synopsis": "",
+      "image": "/images/videos/FirstLove.png",
+      "color": "blue"
+    },
+    {
+      "id": 3,
+      "title": "39歳",
+      "label": "ドラマ",
+      "synopsis": "",
+      "image": "/images/videos/39歳.png",
+      "color": "blue"
+    },
+    {
+      "id": 4,
+      "title": "ヴィンチェンツォ",
+      "label": "ドラマ",
+      "synopsis": "",
+      "image": "/images/videos/ヴィンチェンツォ.png",
+      "color": "blue"
+    },
+    {
+      "id": 5,
+      "title": "wonder",
+      "label": "映画",
+      "synopsis": "",
+      "image": "/images/videos/wonder.png",
+      "color": "red"
+    },
+    {
+      "id": 6,
+      "title": "イルタ・スキャンダル",
+      "label": "ドラマ",
+      "synopsis": "",
+      "image": "/images/videos/イルタ・スキャンダル.png",
+      "color": "blue"
+    },
+    {
+      "id": 7,
+      "title": "クイーンズ・ギャンビット",
+      "label": "ドラマ",
+      "synopsis": "",
+      "image": "/images/videos/クイーンズ・ギャンビット.png",
+      "color": "blue"
+    },
+    {
+      "id": 8,
+      "title": "キム秘書はいったい、なぜ？",
+      "label": "ドラマ",
+      "synopsis": "",
+      "image": "/images/videos/キム秘書はいったいなぜ.png",
+      "color": "blue"
+    },
+    {
+      "id": 9,
+      "title": "グランド・イリュージョン",
+      "label": "映画",
+      "synopsis": "",
+      "image": "/images/videos/グランド・イリュージョン.png",
+      "color": "red"
+    },
+    {
+      "id": 10,
+      "title": "ショーシャンクの空に",
+      "label": "映画",
+      "synopsis": "",
+      "image": "/images/videos/ショーシャンクの空に.png",
+      "color": "red"
+    },
+    {
+      "id": 11,
+      "title": "その年、私たちは",
+      "label": "ドラマ",
+      "synopsis": "",
+      "image": "/images/videos/その年、私たちは.png",
+      "color": "blue"
+    },
+    {
+      "id": 12,
+      "title": "トッケビ",
+      "label": "ドラマ",
+      "synopsis": "",
+      "image": "/images/videos/トッケビ.png",
+      "color": "blue"
+    },
+    {
+      "id": 13,
+      "title": "ブラックリスト",
+      "label": "ドラマ",
+      "synopsis": "",
+      "image": "/images/videos/ブラックリスト.png",
+      "color": "blue"
+    },
+    {
+      "id": 14,
+      "title": "プリズンブレイク",
+      "label": "ドラマ",
+      "synopsis": "",
+      "image": "/images/videos/プリズンブレイク.png",
+      "color": "blue"
+    },
+    {
+      "id": 15,
+      "title": "マニフェスト",
+      "label": "ドラマ",
+      "synopsis": "",
+      "image": "/images/videos/マニフェスト.png",
+      "color": "blue"
+    },
+    {
+      "id": 16,
+      "title": "ルシファー",
+      "label": "ドラマ",
+      "synopsis": "",
+      "image": "/images/videos/ルシファー.png",
+      "color": "blue"
+    },
+    {
+      "id": 17,
+      "title": "賢い医師生活",
+      "label": "ドラマ",
+      "synopsis": "",
+      "image": "/images/videos/賢い医師生活.png",
+      "color": "blue"
+    },
+    {
+      "id": 18,
+      "title": "彼女はキレイだった",
+      "label": "ドラマ",
+      "synopsis": "",
+      "image": "/images/videos/彼女はキレイだった.png",
+      "color": "blue"
+    },
+    {
+      "id": 19,
+      "title": "梨泰院クラス",
+      "label": "ドラマ",
+      "synopsis": "",
+      "image": "/images/videos/梨泰院クラス.png",
+      "color": "blue"
     }
   ]
 }
