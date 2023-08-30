@@ -61,7 +61,7 @@ const Detail = () => {
 
         <div className="mx-2 mb-8">
           <h2 className="text-[20px] font-semibold">あらすじ</h2>
-          <p className="mt-2 mx-2 text-[18px] font-light tracking-wide leading-relaxed whitespace-pre-wrap">
+          <p className="mt-2 mx-2 text-[16px] font-lighter tracking-wide leading-relaxed whitespace-pre-wrap">
             {item.synopsis}
           </p>
         </div>

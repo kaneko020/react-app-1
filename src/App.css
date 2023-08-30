@@ -38,23 +38,23 @@
 }
 
 .blue, .blue-before::before {
-  background-color: #326fe1;
+  background-color: #3273ec;
 }
 
 .lightblue, .lightblue-before::before {
-  background-color: #41c6ff;
+  background-color: #1ec6f9;
 }
 
 .red, .red-before::before {
-  background-color: #f85047;
+  background-color: #f83e34;
+}
+
+.green, .green-before::before {
+  background-color: #12aa6a;
 }
 
 .orange, .orange-before::before {
   background-color: #fb9c20;
-}
-
-.green, .green-before::before {
-  background-color: #08bf8b;
 }
 
 .yellow, .yellow-before::before {
@@ -98,4 +98,12 @@
 
 .swiper-button-prev::after, .swiper-button-next::after {
   color: #6e6e6e;
+}
+
+.selected-label {
+  padding: 0 16px;
+  border-radius: 15px;
+  font-weight: "semi-bold";
+  color: white;
+  cursor: pointer;
 }
