@@ -11,7 +11,7 @@ const Header = () => {
       </a>
       <div className="flex items-center mx-8 gap-4 text-[16px] font-medium">
         <a href="/comics">Comics</a>
-        <a href="/videos">Videos</a>
+        <a href="/movies">Movies</a>
       </div>
     </div>
   );

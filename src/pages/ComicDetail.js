@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { MdArrowBackIosNew } from 'react-icons/md';
 
-const Detail = () => {
+const ComicDetail = () => {
   const [item, setItem] = useState([])
 
   useEffect(() => {
@@ -17,7 +17,7 @@ const Detail = () => {
   const getItemDetail = () => {
     const id = window.location.pathname.split('/detail/')[1]
     axios
-      .get('http://localhost:3030/items/' + id)
+      .get('http://localhost:3030/comics/' + id)
       .then(res => {
         console.log(res.data)
         setItem(res.data)
@@ -70,4 +70,4 @@ const Detail = () => {
   );
 }
 
-export default Detail;
+export default ComicDetail;

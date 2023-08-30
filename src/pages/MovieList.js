@@ -4,7 +4,7 @@ import Item from '../components/Item';
 import Label from '../components/Label';
 import { SlArrowDown } from 'react-icons/sl'
 
-const List = () => {
+const MovieList = () => {
   const [items, setItems] = useState([]);
   const [dispItems, setDispItems] = useState([]);
   const [labels, setLabels] = useState([]);
@@ -12,13 +12,13 @@ const List = () => {
 
   useEffect(() => {
     getItems();
-    getLabels();
+    // getLabels();
   }, []);
 
-  // itemsの取得
+  // moviesの取得
   const getItems = () => {
     axios
-      .get('http://localhost:3030/items')
+      .get('http://localhost:3030/movies')
       .then(res => {
         setItems(res.data);
         setDispItems(res.data);
@@ -28,7 +28,7 @@ const List = () => {
   // labelsの取得
   const getLabels = () => {
     axios
-      .get('http://localhost:3030/labels')
+      .get('http://localhost:3030/movieLabels')
       .then(res => {
         setLabels(res.data);
       })
@@ -97,4 +97,4 @@ const List = () => {
   );
 }
 
-export default List;
+export default MovieList;

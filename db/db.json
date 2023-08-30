@@ -1,5 +1,5 @@
 {
-  "items": [
+  "comics": [
     {
       "id": 1,
       "title": "ONE PIECE",
@@ -316,7 +316,7 @@
       "color": "orange"
     }
   ],
-  "labels": [
+  "comicLabels": [
     {
       "id": 1,
       "name": "Jump Comics",
@@ -343,13 +343,13 @@
       "color": "orange"
     }
   ],
-  "videos": [
+  "movies": [
     {
       "id": 1,
       "title": "シャッターアイランド",
       "label": "映画",
       "synopsis": "",
-      "image": "/images/videos/シャッターアイランド.png",
+      "image": "/images/movies/シャッターアイランド.png",
       "color": "red"
     },
     {
@@ -357,7 +357,7 @@
       "title": "First Love 初恋",
       "label": "ドラマ",
       "synopsis": "",
-      "image": "/images/videos/FirstLove.png",
+      "image": "/images/movies/FirstLove.png",
       "color": "blue"
     },
     {
@@ -365,7 +365,7 @@
       "title": "39歳",
       "label": "ドラマ",
       "synopsis": "",
-      "image": "/images/videos/39歳.png",
+      "image": "/images/movies/39歳.png",
       "color": "blue"
     },
     {
@@ -373,7 +373,7 @@
       "title": "ヴィンチェンツォ",
       "label": "ドラマ",
       "synopsis": "",
-      "image": "/images/videos/ヴィンチェンツォ.png",
+      "image": "/images/movies/ヴィンチェンツォ.png",
       "color": "blue"
     },
     {
@@ -381,7 +381,7 @@
       "title": "wonder",
       "label": "映画",
       "synopsis": "",
-      "image": "/images/videos/wonder.png",
+      "image": "/images/movies/wonder.png",
       "color": "red"
     },
     {
@@ -389,7 +389,7 @@
       "title": "イルタ・スキャンダル",
       "label": "ドラマ",
       "synopsis": "",
-      "image": "/images/videos/イルタ・スキャンダル.png",
+      "image": "/images/movies/イルタ・スキャンダル.png",
       "color": "blue"
     },
     {
@@ -397,7 +397,7 @@
       "title": "クイーンズ・ギャンビット",
       "label": "ドラマ",
       "synopsis": "",
-      "image": "/images/videos/クイーンズ・ギャンビット.png",
+      "image": "/images/movies/クイーンズ・ギャンビット.png",
       "color": "blue"
     },
     {
@@ -405,7 +405,7 @@
       "title": "キム秘書はいったい、なぜ？",
       "label": "ドラマ",
       "synopsis": "",
-      "image": "/images/videos/キム秘書はいったいなぜ.png",
+      "image": "/images/movies/キム秘書はいったいなぜ.png",
       "color": "blue"
     },
     {
@@ -413,7 +413,7 @@
       "title": "グランド・イリュージョン",
       "label": "映画",
       "synopsis": "",
-      "image": "/images/videos/グランド・イリュージョン.png",
+      "image": "/images/movies/グランド・イリュージョン.png",
       "color": "red"
     },
     {
@@ -421,7 +421,7 @@
       "title": "ショーシャンクの空に",
       "label": "映画",
       "synopsis": "",
-      "image": "/images/videos/ショーシャンクの空に.png",
+      "image": "/images/movies/ショーシャンクの空に.png",
       "color": "red"
     },
     {
@@ -429,7 +429,7 @@
       "title": "その年、私たちは",
       "label": "ドラマ",
       "synopsis": "",
-      "image": "/images/videos/その年、私たちは.png",
+      "image": "/images/movies/その年、私たちは.png",
       "color": "blue"
     },
     {
@@ -437,7 +437,7 @@
       "title": "トッケビ",
       "label": "ドラマ",
       "synopsis": "",
-      "image": "/images/videos/トッケビ.png",
+      "image": "/images/movies/トッケビ.png",
       "color": "blue"
     },
     {
@@ -445,7 +445,7 @@
       "title": "ブラックリスト",
       "label": "ドラマ",
       "synopsis": "",
-      "image": "/images/videos/ブラックリスト.png",
+      "image": "/images/movies/ブラックリスト.png",
       "color": "blue"
     },
     {
@@ -453,7 +453,7 @@
       "title": "プリズンブレイク",
       "label": "ドラマ",
       "synopsis": "",
-      "image": "/images/videos/プリズンブレイク.png",
+      "image": "/images/movies/プリズンブレイク.png",
       "color": "blue"
     },
     {
@@ -461,7 +461,7 @@
       "title": "マニフェスト",
       "label": "ドラマ",
       "synopsis": "",
-      "image": "/images/videos/マニフェスト.png",
+      "image": "/images/movies/マニフェスト.png",
       "color": "blue"
     },
     {
@@ -469,7 +469,7 @@
       "title": "ルシファー",
       "label": "ドラマ",
       "synopsis": "",
-      "image": "/images/videos/ルシファー.png",
+      "image": "/images/movies/ルシファー.png",
       "color": "blue"
     },
     {
@@ -477,7 +477,7 @@
       "title": "賢い医師生活",
       "label": "ドラマ",
       "synopsis": "",
-      "image": "/images/videos/賢い医師生活.png",
+      "image": "/images/movies/賢い医師生活.png",
       "color": "blue"
     },
     {
@@ -485,7 +485,7 @@
       "title": "彼女はキレイだった",
       "label": "ドラマ",
       "synopsis": "",
-      "image": "/images/videos/彼女はキレイだった.png",
+      "image": "/images/movies/彼女はキレイだった.png",
       "color": "blue"
     },
     {
@@ -493,7 +493,7 @@
       "title": "梨泰院クラス",
       "label": "ドラマ",
       "synopsis": "",
-      "image": "/images/videos/梨泰院クラス.png",
+      "image": "/images/movies/梨泰院クラス.png",
       "color": "blue"
     }
   ]
