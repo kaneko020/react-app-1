@@ -13,6 +13,15 @@ npm install json-server
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 
+### react-router-dom
+npm install react-router-dom
+
+### swiper
+npm install swiper
+
+### react-icons
+npm install react-icons
+
 ## 各設定
 
 ### tailwind
