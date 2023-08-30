@@ -109,6 +109,7 @@
   padding: 0 16px;
   cursor: pointer;
   border-radius: 15px;
+  transition: all 300ms ease-out;
 }
 
 .label:hover {
@@ -119,3 +120,35 @@
   box-shadow: none;
   transform: translateY(2px);
 }
+
+
+.btn{
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #555;
+  padding: 4px 130px;
+  border-radius: 25px;
+  transition: ease .2s;
+}
+
+.btn:hover .arrow{
+  color:#fff;
+}
+
+.btn:before {
+  content: '';
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: 2;
+  background:  #333;
+  width: 100%;
+  height: 0;
+  transition:.3s cubic-bezier(0.8, 0, 0.2, 1) 0s;
+}
+
+.btn:hover:before{
+  height: 100%;  
+  background-color: #333;
+}
+
