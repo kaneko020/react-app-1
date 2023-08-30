@@ -35,17 +35,17 @@ const List = () => {
   // ラベル選択
   const selectedLabel = (label, color) => {
     const labelList = document.querySelectorAll('h5');
-    const value = document.getElementById(label);
+    const selectedLabel = document.getElementById(label);
 
     labelList.forEach(label => {
       // buttonのクラスを全て削除
       label.classList.remove(...label.classList);
       // buttonにクラスを追加
-      label.classList.add('px-4', 'cursor-pointer');
+      label.classList.add('label');
     });
 
     // 選択したラベルのbuttonにクラスを追加
-    value.classList.add(color, 'selected-label');
+    selectedLabel.classList.add(color, 'selected-label');
 
     if (label === 'All') {
       setDispItems(items);
@@ -59,7 +59,7 @@ const List = () => {
   return (
     <div className="w-[95%] mx-auto">
       <div className="flex justify-center my-[50px] gap-3 text-[20px]">
-        <h5 onClick={() => selectedLabel('All', 'bg-black')} id="All" className="px-4 font-semibo bg-black text-white rounded-[15px] cursor-pointer">
+        <h5 onClick={() => selectedLabel('All', 'bg-black')} id="All" className="label font-semibo bg-black text-white">
           All
         </h5>
         {labels.map(label => (

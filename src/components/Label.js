@@ -1,6 +1,6 @@
 const Label = ({ label, selectedLabel }) => {
   return (
-    <h5 onClick={() => selectedLabel(label.name, label.color)} id={label.name} className="px-4 cursor-pointer">
+    <h5 onClick={() => selectedLabel(label.name, label.color)} id={label.name} className="label">
       {label.name}
     </h5>
   );

@@ -101,9 +101,21 @@
 }
 
 .selected-label {
-  padding: 0 16px;
-  border-radius: 15px;
   font-weight: "semi-bold";
   color: white;
+}
+
+.label {
+  padding: 0 16px;
   cursor: pointer;
+  border-radius: 15px;
+}
+
+.label:hover {
+  box-shadow: 1px 2px 2px 1px #6e6e6e;
+}
+
+.label:active {
+  box-shadow: none;
+  transform: translateY(2px);
 }
