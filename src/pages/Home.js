@@ -2,8 +2,6 @@ import { PiMonitorDuotone }  from 'react-icons/pi';
 import { PiMonitorPlayDuotone } from 'react-icons/pi';
 import { PiBookDuotone } from 'react-icons/pi';
 import { PiBookOpenDuotone } from 'react-icons/pi';
-// import { PiPlugsDuotone } from 'react-icons/pi';
-// import { PiPlugsConnectedDuotone } from 'react-icons/pi';
 
 const Home = () => {
   return (

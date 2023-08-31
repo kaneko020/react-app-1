@@ -22,6 +22,9 @@ npm install swiper
 ### react-icons
 npm install react-icons
 
+### fontawesome
+npm install @fortawesome/react-fontawesome
+
 ## 各設定
 
 ### tailwind
