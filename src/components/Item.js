@@ -2,9 +2,9 @@ const Item = ({ item }) => {
   return (
     <a
       href={`${window.location.pathname}/detail/${item.id}`}
-      className="pc:w-[30%] w-[90%] pc:mb-16 mb-8 mx-2 item"
+      className="pc:w-[30%] w-[90%] pc:mb-16 mb-8 mx-3 item"
     >
-      <p className="overflow-hidden">
+      <p className="overflow-hidden rounded-[10px]">
         <img
           src={`${process.env.PUBLIC_URL}${item.image}`}
           alt=""

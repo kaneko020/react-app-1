@@ -25,15 +25,18 @@ const Detail = () => {
 
   return (
     <div className="pc:w-[70%] w-[90%] mx-auto">
-      <div className="px-3 py-1 my-8 bg-[#ecebeb] inline-block rounded-[10px] drop-shadow hover:bg-[#f6f6f6] active:drop-shadow-none">
-        <button onClick={() => window.history.back()}  className="flex items-center text-[17px]">
-          <MdArrowBackIosNew className="text-[20px] mr-2" />
-          <span className="pr-2">Back</span>
-        </button>
-      </div>
+      <button
+        onClick={() => window.history.back()} 
+        className="back-btn"
+      >
+        <MdArrowBackIosNew className="back-btn-icon" />
+        <span className="text-[17px]">Back</span>
+      </button>
 
       <div className="mb-16">
-        <h1 className="pc:text-[30px] text-[23px] font-semibold border-b-[2px] border-gray-400">{item.title}</h1>
+        <h1 className="pc:text-[30px] text-[23px] font-semibold border-b-[2px] border-gray-400">
+          {item.title}
+        </h1>
 
         <div className={`my-4 px-3 inline-block text-[12px] text-white rounded-[25px] ${item.color}`}>
           {item.label}
