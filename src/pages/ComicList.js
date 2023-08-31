@@ -53,7 +53,7 @@ const ComicList = () => {
       setDispItems(items);
       return;
     } else {
-      const filterItems = items.filter(item => item.label === label);
+      const filterItems = items.filter(item => item.label.includes(label));
       setDispItems(filterItems);
     }
   }
@@ -64,7 +64,7 @@ const ComicList = () => {
 
   return (
     <div className="w-[95%] mx-auto">
-      <div className="flex justify-center flex-wrap my-[50px] pc:gap-3 gap-2 pc:text-[20px] text-[15px]">
+      <div className="flex justify-center flex-wrap my-[50px] pc:gap-3 gap-2 pc:text-[20px] text-[17px]">
         <h5
           onClick={() => selectedLabel('All', 'bg-black')}
           id="All"

@@ -64,13 +64,13 @@ const MovieList = () => {
 
   return (
     <div className="w-[95%] mx-auto">
-      <div className="flex justify-center my-[50px] gap-3 pc:text-[20px] text-[17px]">
+      <div className="flex justify-center my-[50px] pc:gap-4 gap-2 pc:text-[20px] text-[17px]">
         <h5
           onClick={() => selectedLabel('All', 'bg-black')}
           id="All"
           className="label font-semibo bg-black text-white"
         >
-          All
+          ALL
         </h5>
 
         {labels.map(label => (

@@ -319,17 +319,17 @@
   "comicLabels": [
     {
       "id": 1,
-      "name": "Jump Comics",
+      "name": "Jump",
       "color": "red"
     },
     {
       "id": 2,
-      "name": "Magazine Comics",
+      "name": "Magazine",
       "color": "blue"
     },
     {
       "id": 3,
-      "name": "Sunday Comics",
+      "name": "Sunday",
       "color": "green"
     },
     {

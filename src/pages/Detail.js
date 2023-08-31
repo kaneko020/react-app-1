@@ -24,7 +24,7 @@ const Detail = () => {
   }
 
   return (
-    <div className="w-[70%] mx-auto">
+    <div className="pc:w-[70%] w-[90%] mx-auto">
       <div className="px-3 py-1 my-8 bg-[#ecebeb] inline-block rounded-[10px] drop-shadow hover:bg-[#f6f6f6] active:drop-shadow-none">
         <button onClick={() => window.history.back()}  className="flex items-center text-[17px]">
           <MdArrowBackIosNew className="text-[20px] mr-2" />
@@ -33,7 +33,7 @@ const Detail = () => {
       </div>
 
       <div className="">
-        <h1 className="text-[30px] font-semibold border-b-[2px] border-gray-400">{item.title}</h1>
+        <h1 className="pc:text-[30px] text-[23px] font-semibold border-b-[2px] border-gray-400">{item.title}</h1>
 
         <div className={`my-4 px-3 inline-block text-[12px] text-white rounded-[25px] ${item.color}`}>
           {item.label}
@@ -59,8 +59,8 @@ const Detail = () => {
         </Swiper>
 
         <div className="mx-2 mb-12">
-          <h2 className="text-[20px] font-semibold">あらすじ</h2>
-          <p className="mt-2 mx-2 text-[16px] font-lighter tracking-wide leading-relaxed whitespace-pre-wrap">
+          <h2 className="pc:text-[20px] text-[17px] font-semibold">あらすじ</h2>
+          <p className="mt-2 mx-2 pc:text-[16px] text-[14px] font-lighter tracking-wide leading-relaxed whitespace-pre-wrap">
             {item.synopsis}
           </p>
         </div>
