@@ -15,7 +15,7 @@ module.exports = {
       }
     },
     screens: {
-      pc: "768px",
+      pc: "830px",
       lg: "1200px",
   },
   },

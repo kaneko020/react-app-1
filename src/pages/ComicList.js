@@ -64,7 +64,7 @@ const ComicList = () => {
 
   return (
     <div className="w-[95%] mx-auto">
-      <div className="flex justify-center my-[50px] gap-3 text-[20px]">
+      <div className="flex justify-center flex-wrap my-[50px] pc:gap-3 gap-2 pc:text-[20px] text-[15px]">
         <h5
           onClick={() => selectedLabel('All', 'bg-black')}
           id="All"
