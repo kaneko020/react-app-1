@@ -7,8 +7,8 @@ import { PiBookOpenDuotone } from 'react-icons/pi';
 
 const Home = () => {
   return (
-    <div className="text-[30px] text-white font-medium">
-      <div className="pc:w-[70%] w-[90%] mx-auto my-20 p-8 rounded-[20px] bg-[#4e4e4e] hover:text-[#3d3d3d] hover:bg-[#ececec]">
+    <div className="w-full h-[100vh] pc:py-40 py-32 bg-[#f2f2f2] text-[30px] text-[#090909] font-medium">
+      <div className="pc:w-[70%] w-[90%] top-btn">
         <a
           href="/comics"
           className="flex justify-center items-center"
@@ -18,9 +18,9 @@ const Home = () => {
           <PiMonitorPlayDuotone className="text-[50px]" />
         </a>
       </div>
-      <div className="pc:w-[70%] w-[90%] mx-auto my-20 p-8 rounded-[20px] bg-[#4e4e4e] hover:text-[#3d3d3d] hover:bg-[#ececec]">
+      <div className="pc:w-[70%] w-[90%] top-btn">
         <a
-          href="/movies"
+          href="/comics"
           className="flex justify-center items-center"
         >
           <PiBookDuotone className="text-[50px]" />

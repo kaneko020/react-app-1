@@ -88,7 +88,7 @@ const ComicList = () => {
         <button
           disabled={loadIndex >= dispItems.length}
           onClick={displayMore}
-          className="disabled:opacity-0 btn"
+          className="disabled:opacity-0 see-more-btn"
         >
           <SlArrowDown className="relative text-[40px] z-10 arrow" />
         </button>
