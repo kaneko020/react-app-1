@@ -64,7 +64,7 @@ const ComicList = () => {
 
   return (
     <div className="w-[95%] mx-auto">
-      <div className="flex justify-center flex-wrap my-[50px] pc:gap-3 gap-2 pc:text-[20px] text-[17px]">
+      <div className="flex justify-center flex-wrap my-16 pc:gap-3 gap-2 pc:text-[20px] text-[17px]">
         <h5
           onClick={() => selectedLabel('All', 'bg-black')}
           id="All"
@@ -84,11 +84,11 @@ const ComicList = () => {
         ))}
       </div>
 
-      <div className="flex justify-center mb-32">
+      <div className="flex justify-center">
         <button
           disabled={loadIndex >= dispItems.length}
           onClick={displayMore}
-          className="disabled:opacity-0 see-more-btn"
+          className="disabled:opacity-0 see-more-btn disabled:m-0"
         >
           <SlArrowDown className="relative text-[40px] z-10 arrow" />
         </button>

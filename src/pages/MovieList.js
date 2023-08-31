@@ -84,11 +84,11 @@ const MovieList = () => {
         ))}
       </div>
 
-      <div className="flex justify-center mb-32">
+      <div className="flex justify-center">
         <button
           disabled={loadIndex >= dispItems.length}
           onClick={displayMore}
-          className="disabled:opacity-0 see-more-btn"
+          className="disabled:opacity-0 see-more-btn disabled:m-0"
         >
           <SlArrowDown className="relative text-[40px] z-10 arrow" />
         </button>

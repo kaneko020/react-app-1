@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Header from './components/layout/header';
+import Footer from './components/layout/footer';
 import Home from './pages/Home';
 import ComicList from './pages/ComicList';
 import MovieList from './pages/MovieList';
@@ -29,6 +30,7 @@ function App() {
           </Route>
         </Switch>
       </BrowserRouter>
+      <Footer />
     </>
   );
 }

@@ -7,27 +7,17 @@ import { PiBookOpenDuotone } from 'react-icons/pi';
 
 const Home = () => {
   return (
-    <div className="w-full h-[100vh] pc:py-40 py-32 bg-[#f2f2f2] text-[30px] text-[#090909] font-medium">
-      <div className="pc:w-[70%] w-[90%] top-btn">
-        <a
-          href="/comics"
-          className="flex justify-center items-center"
-        >
-          <PiMonitorDuotone className="text-[50px]" />
-          <p className="mx-3">Comics Introduction</p>
-          <PiMonitorPlayDuotone className="text-[50px]" />
-        </a>
-      </div>
-      <div className="pc:w-[70%] w-[90%] top-btn">
-        <a
-          href="/comics"
-          className="flex justify-center items-center"
-        >
-          <PiBookDuotone className="text-[50px]" />
-          <p className="mx-3">Movies Introduction</p>
-          <PiBookOpenDuotone className="text-[50px]" />
-        </a>
-      </div>
+    <div className="w-full h-full pc:py-44 py-32 bg-[#f2f2f2] text-[30px] text-[#090909] font-medium">
+      <a href="/comics" className="pc:w-[70%] w-[90%] top-btn">
+        <PiBookDuotone className="text-[50px]" />
+        <p className="mx-3">Comics Introduction</p>
+        <PiBookOpenDuotone className="text-[50px]" />
+      </a>
+      <a href="/movies" className="pc:w-[70%] w-[90%] top-btn">
+        <PiMonitorDuotone className="text-[50px]" />
+        <p className="mx-3">Movies Introduction</p>
+        <PiMonitorPlayDuotone className="text-[50px]" />
+      </a>
     </div>
   )
 }

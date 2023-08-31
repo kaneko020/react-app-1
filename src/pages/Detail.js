@@ -32,7 +32,7 @@ const Detail = () => {
         </button>
       </div>
 
-      <div className="">
+      <div className="mb-16">
         <h1 className="pc:text-[30px] text-[23px] font-semibold border-b-[2px] border-gray-400">{item.title}</h1>
 
         <div className={`my-4 px-3 inline-block text-[12px] text-white rounded-[25px] ${item.color}`}>
@@ -58,7 +58,7 @@ const Detail = () => {
           </SwiperSlide>
         </Swiper>
 
-        <div className="mx-2 mb-12">
+        <div className="mx-2">
           <h2 className="pc:text-[20px] text-[17px] font-semibold">あらすじ</h2>
           <p className="mt-2 mx-2 pc:text-[16px] text-[14px] font-lighter tracking-wide leading-relaxed whitespace-pre-wrap">
             {item.synopsis}
