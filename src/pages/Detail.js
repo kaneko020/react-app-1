@@ -25,10 +25,7 @@ const Detail = () => {
 
   return (
     <div className="pc:w-[70%] w-[90%] mx-auto">
-      <button
-        onClick={() => window.history.back()} 
-        className="back-btn"
-      >
+      <button onClick={() => window.history.back()} className="back-btn">
         <MdArrowBackIosNew className="back-btn-icon" />
         <span className="text-[17px]">Back</span>
       </button>

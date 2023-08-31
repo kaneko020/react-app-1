@@ -17,11 +17,11 @@ const Footer = () => {
     <div
       className="w-full h-[100px] bg-[#d7d7d7] text-[#333]"
     >
-      <div className="h-full flex justify-center items-center gap-5">
-        <PiTwitterLogoDuotone className="text-[30px]" />
-        <PiInstagramLogoDuotone className="text-[30px]" />
-        <PiFacebookLogoDuotone className="text-[30px]" />
-        <PiYoutubeLogoDuotone className="text-[30px]" />
+      <div className="h-full flex justify-center items-center gap-5 text-[30px]">
+        <PiTwitterLogoDuotone />
+        <PiInstagramLogoDuotone />
+        <PiFacebookLogoDuotone />
+        <PiYoutubeLogoDuotone />
       </div>
 
       <div className="flex justify-end -mt-[70px] mr-[20px]">
