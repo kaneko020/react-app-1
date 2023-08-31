@@ -9,6 +9,7 @@ const ComicList = () => {
   const [dispItems, setDispItems] = useState([]);
   const [labels, setLabels] = useState([]);
   const [loadIndex, setLoadIndex] = useState(9);
+  const [search, setSearch] = useState('');
 
   useEffect(() => {
     getItems();
@@ -62,8 +63,17 @@ const ComicList = () => {
     setLoadIndex(loadIndex + 12);
   };
 
+  const searchFilter = () => {
+    const filterItems = items.filter(item => item.title.includes(search));
+    setDispItems(filterItems);
+  }
+
   return (
     <div className="w-[95%] mx-auto">
+      <div className="flex justify-center mt-20">
+        <input type="text" onChange={(e) => setSearch(e.target.value)} className="border-2" />
+        <button onClick={searchFilter} className="border-2">Search</button>
+      </div>
       <div className="flex justify-center flex-wrap my-16 pc:gap-3 gap-2 pc:text-[20px] text-[17px]">
         <h5
           onClick={() => selectedLabel('All', 'bg-black')}
