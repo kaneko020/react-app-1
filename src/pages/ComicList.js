@@ -78,7 +78,7 @@ const ComicList = () => {
         ))}
       </div>
 
-      <div className="flex flex-wrap relative justify-center my-6 mx-4">
+      <div className="flex flex-wrap relative justify-center">
         {dispItems.slice(0, loadIndex).map(item => (
           <Item key={item.id} item={item} />
         ))}
