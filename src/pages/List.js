@@ -5,7 +5,7 @@ import Label from '../components/Label';
 import { SlArrowDown } from 'react-icons/sl'
 import { PiMagnifyingGlassDuotone } from 'react-icons/pi';
 
-const ComicList = () => {
+const List = () => {
   const [items, setItems] = useState([]);
   const [dispItems, setDispItems] = useState([]);
   const [labels, setLabels] = useState([]);
@@ -17,10 +17,10 @@ const ComicList = () => {
     getLabels();
   }, []);
 
-  // comicsの取得
+  // comics/moviesの取得
   const getItems = () => {
     axios
-      .get('http://localhost:3030/comics')
+      .get('http://localhost:3030' + window.location.pathname)
       .then(res => {
         setItems(res.data);
         setDispItems(res.data);
@@ -30,7 +30,7 @@ const ComicList = () => {
   // labelsの取得
   const getLabels = () => {
     axios
-      .get('http://localhost:3030/comicLabels')
+      .get('http://localhost:3030'  + window.location.pathname.slice(0, -1) + 'Labels')
       .then(res => {
         setLabels(res.data);
       })
@@ -116,4 +116,4 @@ const ComicList = () => {
   );
 }
 
-export default ComicList;
+export default List;

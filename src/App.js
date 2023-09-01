@@ -3,8 +3,7 @@ import './App.css';
 import Header from './components/layout/header';
 import Footer from './components/layout/footer';
 import Home from './pages/Home';
-import ComicList from './pages/ComicList';
-import MovieList from './pages/MovieList';
+import List from './pages/List';
 import Detail from './pages/Detail';
 
 function App() {
@@ -17,13 +16,13 @@ function App() {
             <Home />
           </Route>
           <Route exact path="/comics">
-            <ComicList />
+            <List />
           </Route>
           <Route path="/comics/detail">
             <Detail />
           </Route>
           <Route exact path="/movies">
-            <MovieList />
+            <List />
           </Route>
           <Route path="/movies/detail">
             <Detail />
