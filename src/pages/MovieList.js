@@ -3,12 +3,14 @@ import axios from 'axios';
 import Item from '../components/Item';
 import Label from '../components/Label';
 import { SlArrowDown } from 'react-icons/sl'
+import { PiMagnifyingGlassDuotone } from 'react-icons/pi';
 
 const MovieList = () => {
   const [items, setItems] = useState([]);
   const [dispItems, setDispItems] = useState([]);
   const [labels, setLabels] = useState([]);
   const [loadIndex, setLoadIndex] = useState(9);
+  const [search, setSearch] = useState('');
 
   useEffect(() => {
     getItems();
@@ -62,9 +64,26 @@ const MovieList = () => {
     setLoadIndex(loadIndex + 12);
   };
 
+  const searchFilter = () => {
+    const filterItems = items.filter(item => item.title.includes(search));
+    setDispItems(filterItems);
+  };
+
   return (
-    <div className="w-[95%] mx-auto">
-      <div className="flex justify-center my-[50px] pc:gap-4 gap-2 pc:text-[20px] text-[17px]">
+    <div className="w-[95%] mx-auto py-8">
+      <div className="flex justify-center pc:mx-20 mx-4 py-8 bg-[#eeeeee] rounded-[10px]">
+        <input
+          type="text"
+          onChange={(e) => setSearch(e.target.value)}
+          className="pc:w-[50%] w-[80%] p-2 bg-white focus:outline-none rounded-l-[5px]"
+        />
+        <button onClick={searchFilter} className="flex items-center p-2 bg-[#1e3d79] text-white rounded-r-[5px]">
+          <PiMagnifyingGlassDuotone className="text-[20px] pc:mr-[2px]" />
+          <p className="pc:flex hidden">Search</p>
+        </button>
+      </div>
+
+      <div className="flex justify-center my-12 pc:gap-4 gap-2 pc:text-[20px] text-[17px]">
         <h5
           onClick={() => selectedLabel('All', 'bg-black')}
           id="All"
@@ -78,7 +97,7 @@ const MovieList = () => {
         ))}
       </div>
 
-      <div className="flex flex-wrap relative justify-center">
+      <div className="flex flex-wrap relative justify-center ">
         {dispItems.slice(0, loadIndex).map(item => (
           <Item key={item.id} item={item} />
         ))}

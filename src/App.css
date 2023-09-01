@@ -132,7 +132,7 @@
   position: relative;
   overflow: hidden;
   border: 1px solid #555;
-  margin: 70px 0 200px 0;
+  margin: 70px 0;
   padding: 4px 130px;
   border-radius: 25px;
   transition: ease .2s;

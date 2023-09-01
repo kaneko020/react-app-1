@@ -3,6 +3,7 @@ import axios from 'axios';
 import Item from '../components/Item';
 import Label from '../components/Label';
 import { SlArrowDown } from 'react-icons/sl'
+import { PiMagnifyingGlassDuotone } from 'react-icons/pi';
 
 const ComicList = () => {
   const [items, setItems] = useState([]);
@@ -66,15 +67,23 @@ const ComicList = () => {
   const searchFilter = () => {
     const filterItems = items.filter(item => item.title.includes(search));
     setDispItems(filterItems);
-  }
+  };
 
   return (
-    <div className="w-[95%] mx-auto">
-      <div className="flex justify-center mt-20">
-        <input type="text" onChange={(e) => setSearch(e.target.value)} className="border-2" />
-        <button onClick={searchFilter} className="border-2">Search</button>
+    <div className="w-[95%] mx-auto py-8">
+      <div className="flex justify-center pc:mx-20 mx-4 py-8 bg-[#eeeeee] rounded-[10px]">
+        <input
+          type="text"
+          onChange={(e) => setSearch(e.target.value)}
+          className="pc:w-[50%] w-[80%] p-2 bg-white focus:outline-none rounded-l-[5px]"
+        />
+        <button onClick={searchFilter} className="flex items-center p-2 bg-[#1e3d79] text-white rounded-r-[5px]">
+          <PiMagnifyingGlassDuotone className="text-[20px] pc:mr-[2px]" />
+          <p className="pc:flex hidden">Search</p>
+        </button>
       </div>
-      <div className="flex justify-center flex-wrap my-16 pc:gap-3 gap-2 pc:text-[20px] text-[17px]">
+
+      <div className="flex justify-center flex-wrap my-12 pc:gap-3 gap-2 pc:text-[20px] text-[17px]">
         <h5
           onClick={() => selectedLabel('All', 'bg-black')}
           id="All"
