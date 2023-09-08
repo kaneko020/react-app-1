@@ -71,16 +71,17 @@ const List = () => {
 
   return (
     <div className="w-[95%] mx-auto py-8">
-      <div className="flex justify-center pc:mx-20 mx-4 py-8 bg-[#eeeeee] rounded-[10px]">
-        <input
-          type="text"
-          onChange={(e) => setSearch(e.target.value)}
-          className="pc:w-[50%] w-[80%] p-2 bg-white focus:outline-none rounded-l-[5px]"
-        />
-        <button onClick={searchFilter} className="flex items-center p-2 bg-[#1e3d79] text-white rounded-r-[5px]">
-          <PiMagnifyingGlassDuotone className="text-[20px] pc:mr-[2px]" />
-          <p className="pc:flex hidden">Search</p>
-        </button>
+      <div className="flex justify-center pc:mx-20 m-4 py-8 bg-[#f1f1f1] rounded-[5px]">
+        <div className="flex pc:w-[50%] w-[80%] rounded-[5px] search-input">
+          <input
+            type="text"
+            onChange={(e) => setSearch(e.target.value)}
+            className="w-full p-2 bg-white rounded-l-[5px] transition-all outline-none"
+          />
+          <button onClick={searchFilter} className="flex items-center p-2 bg-white rounded-r-[5px]">
+            <PiMagnifyingGlassDuotone className="w-full text-[25px] pl-2 text-[#404040] border-l-2 border-[#7b7b7b] hover:text-[#6e6e6e]" />
+          </button>
+        </div>
       </div>
 
       <div className="flex justify-center flex-wrap my-12 pc:gap-3 gap-2 pc:text-[20px] text-[17px]">

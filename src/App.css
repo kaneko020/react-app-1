@@ -206,3 +206,7 @@
   box-shadow: none;
   transform: translateY(2px);
 }
+
+.search-input {
+  box-shadow: 3px 3px #cfcfcf;
+}
